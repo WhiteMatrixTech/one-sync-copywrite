@@ -13,11 +13,10 @@ export const copywriter = {
     toInputVerificationCode:'Please input your verification code!',
     toInputPassword:'Please input your password!',
     toReconfirmPassword:'Please reconfirm the password you entered！',
-    sendCodeButtonText:{
-      loading:'Sending',
-      primary:'Send Code',
-      sendAgain:'Send Again'
-    }
+    sendCodeButtonLoading:'Sending',
+    sendCodeButtonPrimary:'Send Code',
+    sendCodeButtonAgain:'Send Again'
+
   },
   application: {},
   collection: {},
