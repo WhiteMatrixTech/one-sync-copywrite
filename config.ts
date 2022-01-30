@@ -2,8 +2,23 @@ export const copywriter = {
   global: {
     header: '1-SYNC'
   },
-  login: {},
-  register: {},
+  login: {
+    toInputEmail:'Please input your email!',
+    toEnterCorrect:'Please enter the correct email address!',
+    toInputPassword:'Please input your password!',
+    loginExpired:'Login expired, please login again!'
+  },
+  register: {
+    toInputUsername:'Please input your username!',
+    toInputVerificationCode:'Please input your verification code!',
+    toInputPassword:'Please input your password!',
+    toReconfirmPassword:'Please reconfirm the password you entered！',
+    sendCodeButtonText:{
+      loading:'Sending',
+      primary:'Send Code',
+      sendAgain:'Send Again'
+    }
+  },
   application: {},
   collection: {},
   synchronization: {},
