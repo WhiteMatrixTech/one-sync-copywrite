@@ -19,12 +19,18 @@ export const copywriter = {
     sendCodeButtonPrimary:'Send Code',
     sendCodeButtonAgain:'Send Again'
   },
-  application: {
-    deleteAppTitle: 'Are you sure delete this application?',
-    deleteAppDesc: 'This can not be undo',
+  useQueryNotification: {
+    getApplicationDetailFailed: 'Get application detail failed',
+    getCollectionDetailFailed: 'Get collection detail failed',
     deleteAppSus: 'Application delete succeed',
     deleteAppFail: 'Application delete failed',
     loadAppFail: 'Application load failed',
+    updateAppSus: 'Update application succeed',
+    updateAppFail: 'Failed to update application'
+  },
+  application: {
+    deleteAppTitle: 'Are you sure delete this application?',
+    deleteAppDesc: 'This can not be undo',
     yourApplication: 'Your Application',
     addNewApplicationBtnText: 'Add New Application',
     add: {
