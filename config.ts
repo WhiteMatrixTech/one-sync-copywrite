@@ -159,7 +159,7 @@ export const copywriter = {
       fields: {
         collectionName: {
           label: 'Collection Name',
-          placeholder: 'Please input collection name',
+          placeholder: 'Please select collection name',
           required: 'Collection name is required'
         },
         contractAddress: {
