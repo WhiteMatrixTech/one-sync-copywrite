@@ -43,7 +43,9 @@ export const copywriter = {
     updateMetaDataFail: 'Failed to update metadata',
     addMetaDataFail: 'Failed to add metadata',
     addMetaDataSchemaSus: 'Add metadata schema succeed!',
-    addMetaDataSchemaFail: 'Failed to add metadata schema'
+    addMetaDataSchemaFail: 'Failed to add metadata schema',
+    addWebhookSus: 'Add new event succeed!',
+    addWebhookFail: 'Failed to add new event'
   },
   application: {
     deleteAppTitle: 'Are you sure delete this application?',
@@ -148,10 +150,10 @@ export const copywriter = {
     }
   },
   synchronization: {
-    addNewEventsBtnText: 'Add New Events',
+    addNewEventsBtnText: 'Add New Event',
     allSyncEvents: 'All Synchronization Events',
     addPage: {
-      title: 'Add Sync Events',
+      title: 'Add Sync Event',
       addEventsBtnText: 'Add Events',
       pleaseAddSomeEvent: 'Please add some event',
       pleaseFillEventBlank: 'Please fill event blank',
@@ -166,6 +168,16 @@ export const copywriter = {
           label: 'Contract Address',
           placeholder: 'Please input contract address',
           required: 'Contract address is required'
+        },
+        eventId: {
+          label: 'Event Name',
+          placeholder: 'Please select event',
+          required: 'Event name is required'
+        },
+        webhook: {
+          lable: 'Webhook Endpoint',
+          placeholder: 'Please input webhook endpoint',
+          required: 'Webhook endpoint is required'
         }
       }
     },
