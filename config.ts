@@ -185,5 +185,7 @@ export const copywriter = {
       title: 'Sync log'
     }
   },
-  adminWallet: {}
+  adminWallet: {
+    refreshAccountBalanceSus: 'Refresh account balance succeed!'
+  }
 }
