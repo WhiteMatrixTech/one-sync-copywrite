@@ -13,6 +13,9 @@ export const copywriter = {
       contractAddress: 'Contract Address',
       contractDesc: 'Contract Description',
       contractEndPoint: 'Endpoint'
+    },
+    placeholder: {
+      noDescription: 'No description'
     }
   },
   login: {
