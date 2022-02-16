@@ -4,7 +4,16 @@ export const copywriter = {
     welcome: 'Welcome To NFT 1-Sync Platform',
     loadMoreBtnText: 'Load More',
     unAuthorizedToAccess: 'Sorry, you are not authorized to access this page.',
-    pageNotExists: 'Sorry, the page you visited does not exist.'
+    pageNotExists: 'Sorry, the page you visited does not exist.',
+    titles: {
+      walletAddress: 'Wallet Address',
+      walletBalance: 'Wallet Balance',
+      appSecret: 'App Secret',
+      appDesc: 'App Description',
+      contractAddress: 'Contract Address',
+      contractDesc: 'Contract Description',
+      contractEndPoint: 'Endpoint'
+    }
   },
   login: {
     toInputEmail:'Please input your email!',
@@ -186,6 +195,6 @@ export const copywriter = {
     }
   },
   adminWallet: {
-    refreshAccountBalanceSus: 'Refresh account balance succeed!'
+    refreshAccountBalanceSus: 'Refresh account balance succeed!',
   }
 }
