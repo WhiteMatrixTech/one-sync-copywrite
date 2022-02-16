@@ -94,6 +94,15 @@ export const copywriter = {
             placeholder: 'Please select template',
             required: 'Template is required'
           },
+          collectionName: {
+            label: 'Collection Name',
+            placeholder: 'Please input collection name',
+            required: 'Collection name is required'
+          },
+          collectionDescription: {
+            label: 'Collection Description',
+            placeholder: 'Please input collection description',
+          },
           tokenName: {
             label: 'Token Name',
             placeholder: 'Please input token name',
