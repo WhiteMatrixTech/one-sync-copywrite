@@ -54,10 +54,12 @@ export const copywriter = {
     getMetaDataFail: 'Failed to get metadata',
     updateMetaDataFail: 'Failed to update metadata',
     addMetaDataFail: 'Failed to add metadata',
-    addMetaDataSchemaSus: 'Add metadata schema succeed!',
+    addMetaDataSchemaSus: 'Add metadata schema succeed, try to create some metadata items',
     addMetaDataSchemaFail: 'Failed to add metadata schema',
     addWebhookSus: 'Add new event succeed!',
-    addWebhookFail: 'Failed to add new event'
+    addWebhookFail: 'Failed to add new event',
+    uploadDefaultImageSucceed: 'Upload default image succeed!',
+    uploadDefaultImageFail: 'Failed to upload default image'
   },
   application: {
     deleteAppTitle: 'Are you sure delete this application?',
@@ -84,7 +86,7 @@ export const copywriter = {
       },
       stepTwo: {
         title: 'Add New NFT Collection',
-        deploySus: 'Collection deploy success!',
+        deploySus: 'Collection init success, please waiting for synchronization to complete',
         deployFailed: 'Collection deploy failed!',
         getTemplatesFailed: 'Get contract templates failed',
         getWalletAddressFailed: 'Get wallet address failed',
@@ -140,6 +142,7 @@ export const copywriter = {
       batchCreateMetaDataItems: 'Batch Create Metadata Items',
       errorWhileFormatBatchJson: 'Error while format input string as json object array',
       noDataFound: 'No data found!',
+      tokenIdCanNotBeZero: 'Token ID starts from 1',
       incorrectDataFormat: 'Incorrect data format',
       deleteThisLine: 'Delete this line?',
       onlyOneLineEditorAlertMessage: 'Only one row can be edited at a time',
@@ -150,6 +153,7 @@ export const copywriter = {
       fileTypeSupport: 'File types supported: PNG, JPG, or GIF',
       failedToFormatSchema: 'Failed to format metadata schema',
       currentCollectionAlreadyInit: 'Current collection has already init schema!',
+      pleaseUploadDefaultImage: 'Please upload default image',
       clickToUpload: 'Click to upload',
       fields: {
         collectionName: {
