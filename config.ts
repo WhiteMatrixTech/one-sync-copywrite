@@ -69,9 +69,15 @@ export const copywriter = {
     add: {
       stepOne:{
         title: "Init New Application",
-        initSus: 'Application init success!',
+        initSus: {
+          title: 'Congratulations! Initialization application succeed!',
+          detail: 'You can add your NFT collection immediately',
+          addNow: 'Add Now',
+          maybeLater: 'Maybe later'
+        },
         initFailed: 'Application init failed!',
         initNow: 'Init now',
+
         fields: {
           applicationName: {
             label: 'Application Name',
