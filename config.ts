@@ -59,7 +59,8 @@ export const copywriter = {
     addWebhookSus: 'Add new event succeed!',
     addWebhookFail: 'Failed to add new event',
     uploadDefaultImageSucceed: 'Upload default image succeed!',
-    uploadDefaultImageFail: 'Failed to upload default image'
+    uploadDefaultImageFail: 'Failed to upload default image',
+    refreshTokenMetaDataFail: 'Failed to refresh token metadata'
   },
   application: {
     deleteAppTitle: 'Are you sure delete this application?',
