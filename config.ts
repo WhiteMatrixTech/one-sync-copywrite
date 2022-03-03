@@ -11,7 +11,7 @@ export const copywriter = {
       appSecret: 'App Secret',
       appDesc: 'App Description',
       contractAddress: 'Contract Address',
-      contractDesc: 'Contract Description',
+      contractDesc: 'Collection Description',
       contractEndPoint: 'Endpoint'
     },
     placeholder: {
