@@ -32,7 +32,8 @@ export const copywriter = {
     toReconfirmPassword:'Please reconfirm the password you entered！',
     sendCodeButtonLoading:'Sending',
     sendCodeButtonPrimary:'Send Code',
-    sendCodeButtonAgain:'Send Again'
+    sendCodeButtonAgain:'Send Again',
+    failedToRegisterAccount: 'Failed to register account'
   },
   useQueryNotification: {
     getApplicationListFailed: 'Failed to get application list',
