@@ -142,7 +142,7 @@ export const copywriter = {
     yourCollections: 'Your Collections',
     addNewNftCollection: 'Add New NFT Collection',
     updateMetaDataItem: 'Update Metadata Item',
-    metaDataList: 'MetaData List',
+    metaDataList: 'Metadata List',
     createMetaDataItem: 'Create Metadata Items',
     editMetaDataConfig: 'Edit Metadata Config',
     loadMoreDataFail: 'Failed to load more data',
