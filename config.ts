@@ -55,12 +55,16 @@ export const copywriter = {
     getMetaDataFail: 'Failed to get metadata',
     updateMetaDataFail: 'Failed to update metadata',
     addMetaDataFail: 'Failed to add metadata',
-    addMetaDataSchemaSus: 'Add metadata schema succeed, try to create some metadata items',
-    addMetaDataSchemaFail: 'Failed to add metadata schema',
+    initMetaDataSchemaSus: 'Init metadata schema succeed, try to create some metadata items',
+    updateMetadataConfigSus: 'Update metadata config succeed',
+    initMetaDataSchemaFail: 'Failed to add metadata schema',
+    updateMetadataConfigFail: 'Failed to update metadata config',
     addWebhookSus: 'Add new event succeed!',
     addWebhookFail: 'Failed to add new event',
     uploadDefaultImageSucceed: 'Upload default image succeed!',
+    updateDefaultImageSucceed: 'Update default image succeed!',
     uploadDefaultImageFail: 'Failed to upload default image',
+    updateDefaultImageFail: 'Failed to update default image',
     refreshTokenMetaDataFail: 'Failed to refresh token metadata'
   },
   application: {
@@ -144,7 +148,8 @@ export const copywriter = {
     updateMetaDataItem: 'Update Metadata Item',
     metaDataList: 'Metadata List',
     createMetaDataItem: 'Create Metadata Items',
-    editMetaDataConfig: 'Edit Metadata Config',
+    initMetaDataConfig: 'Init Metadata Config',
+    updateMetaDataConfig: 'Update Metadata Config',
     loadMoreDataFail: 'Failed to load more data',
     createMetaDataPage: {
       batchCreateMetaDataItems: 'Batch Create Metadata Items',
@@ -162,7 +167,8 @@ export const copywriter = {
       failedToFormatSchema: 'Failed to format metadata schema',
       currentCollectionAlreadyInit: 'Current collection has already init schema!',
       pleaseUploadDefaultImage: 'Please upload default image',
-      clickToUpload: 'Click to upload',
+      clickToUpload: 'Click to upload default image',
+      clickToUpdate: 'Click to update default image',
       fields: {
         collectionName: {
           label: 'Collection Name'
