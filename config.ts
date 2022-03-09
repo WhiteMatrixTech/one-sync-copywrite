@@ -39,6 +39,8 @@ export const copywriter = {
     getApplicationListFailed: 'Failed to get application list',
     getWalletAddressFailed: 'Failed to get wallet address',
     getApplicationDetailFailed: 'Get application detail failed',
+    getApplicationChainsFailed: 'Get application chains failed',
+    getApplicationChainNetworksFailed: 'Get application chain networks failed',
     getApplicationContractsFailed: 'Get application contracts failed',
     getCollectionDetailFailed: 'Get collection detail failed',
     getCollectionEventsFailed: 'Get collection events failed',
@@ -93,6 +95,16 @@ export const copywriter = {
           applicationDesc: {
             label: 'Description',
             placeholder: 'Please input application description'
+          },
+          applicationChain: {
+            label: 'Chain',
+            required: 'Chain is required',
+            placeholder: 'Please select chain'
+          },
+          applicationChainNetwork: {
+            label: 'Network',
+            required: 'Chain network is required',
+            placeholder: 'Please select application chain network'
           }
         }
       },
