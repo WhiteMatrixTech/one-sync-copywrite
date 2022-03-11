@@ -181,6 +181,7 @@ export const copywriter = {
       pleaseUploadDefaultImage: 'Please upload default image',
       clickToUpload: 'Click to upload default image',
       clickToUpdate: 'Click to update default image',
+      forbiddenField: 'Wrong fieldName, tokenId、name、description are build in fields',
       fields: {
         collectionName: {
           label: 'Collection Name'
