@@ -3,8 +3,8 @@ export const copywriter = {
     title: 'NFT 1-SYNC',
     welcome: 'Welcome To NFT 1-Sync Platform',
     loadMoreBtnText: 'Load More',
-    unAuthorizedToAccess: 'Sorry, you are not authorized to access this page.',
-    pageNotExists: 'Sorry, the page you visited does not exist.',
+    unAuthorizedToAccess: 'Sorry. You are not authorized to access this page.',
+    pageNotExists: 'Sorry. The page does not exist.',
     titles: {
       walletAddress: 'Wallet Address',
       walletBalance: 'Wallet Balance',
@@ -22,14 +22,14 @@ export const copywriter = {
     toInputEmail:'Please input your email!',
     toEnterCorrect:'Please enter the correct email address!',
     toInputPassword:'Please input your password!',
-    loginExpired:'Login expired, please login again!',
+    loginExpired:'Login Session has expired. Please login again!',
     pleaseLoginFirst: 'Please login first!'
   },
   register: {
     toInputUsername:'Please input your username!',
     toInputVerificationCode:'Please input your verification code!',
     toInputPassword:'Please input your password!',
-    toReconfirmPassword:'Please reconfirm the password you entered！',
+    toReconfirmPassword:'Please reconfirm your password！',
     sendCodeButtonLoading:'Sending',
     sendCodeButtonPrimary:'Send Code',
     sendCodeButtonAgain:'Send Again',
@@ -38,18 +38,18 @@ export const copywriter = {
   useQueryNotification: {
     getApplicationListFailed: 'Failed to get application list',
     getWalletAddressFailed: 'Failed to get wallet address',
-    getApplicationDetailFailed: 'Get application detail failed',
-    getApplicationChainsFailed: 'Get application chains failed',
-    getApplicationChainNetworksFailed: 'Get application chain networks failed',
-    getApplicationContractsFailed: 'Get application contracts failed',
-    getCollectionDetailFailed: 'Get collection detail failed',
-    getCollectionEventsFailed: 'Get collection events failed',
-    getContractTemplatesFailed: 'Get contract templates failed',
-    getContractEventsFailed: 'Get contract events failed',
-    deleteAppSus: 'Application delete succeed',
+    getApplicationDetailFailed: 'Failed to get application detail',
+    getApplicationChainsFailed: 'Failed to get application chains',
+    getApplicationChainNetworksFailed: 'Failed to get application chain networks',
+    getApplicationContractsFailed: 'Failed to get application contracts',
+    getCollectionDetailFailed: 'Failed to get collection detail',
+    getCollectionEventsFailed: 'Failed to get collection events',
+    getContractTemplatesFailed: 'Failed to get contract templates',
+    getContractEventsFailed: 'Failed to get contract events failed',
+    deleteAppSus: 'Application delete succeeded',
     deleteAppFail: 'Application delete failed',
     loadAppFail: 'Application load failed',
-    updateAppSus: 'Update application succeed',
+    updateAppSus: 'Succeed to update application',
     updateAppFail: 'Failed to update application',
     getEventLogFail: 'Failed to get event logs',
     getCollectionListFail: 'Failed to get collection list',
@@ -57,34 +57,34 @@ export const copywriter = {
     getMetaDataFail: 'Failed to get metadata',
     updateMetaDataFail: 'Failed to update metadata',
     addMetaDataFail: 'Failed to add metadata',
-    initMetaDataSchemaSus: 'Init metadata schema succeed, try to create some metadata items',
-    updateMetadataConfigSus: 'Update metadata config succeed',
+    initMetaDataSchemaSus: 'Metadata schema initialization succeeded. Try to create some metadata items',
+    updateMetadataConfigSus: 'Succeed to update metadata config',
     initMetaDataSchemaFail: 'Failed to add metadata schema',
     updateMetadataConfigFail: 'Failed to update metadata config',
-    addWebhookSus: 'Add new event succeed!',
+    addWebhookSus: 'Succeed to add new event!',
     addWebhookFail: 'Failed to add new event',
-    uploadDefaultImageSucceed: 'Upload default image succeed!',
-    updateDefaultImageSucceed: 'Update default image succeed!',
+    uploadDefaultImageSucceed: 'Succeed to upload default image!',
+    updateDefaultImageSucceed: 'Succeed to update default image!',
     uploadDefaultImageFail: 'Failed to upload default image',
     updateDefaultImageFail: 'Failed to update default image',
     refreshTokenMetaDataFail: 'Failed to refresh token metadata'
   },
   application: {
-    deleteAppTitle: 'Are you sure delete this application?',
+    deleteAppTitle: 'Are you sure to delete this application?',
     deleteAppDesc: 'This can not be undo',
     yourApplication: 'Your Application',
     addNewApplicationBtnText: 'Add New Application',
     add: {
       stepOne:{
-        title: "Init New Application",
+        title: "Initialize New Application",
         initSus: {
-          title: 'Congratulations! Initialization application succeed!',
+          title: 'Congratulations! Application Initialization succeed!',
           detail: 'You can add your NFT collection immediately',
           addNow: 'Add Now',
           maybeLater: 'Maybe later'
         },
-        initFailed: 'Application init failed!',
-        initNow: 'Init now',
+        initFailed: 'Application Initialization failed!',
+        initNow: 'Initialize now',
 
         fields: {
           applicationName: {
@@ -110,10 +110,10 @@ export const copywriter = {
       },
       stepTwo: {
         title: 'Add New NFT Collection',
-        deploySus: 'Collection init success, please waiting for synchronization to complete',
-        deployFailed: 'Collection deploy failed!',
-        getTemplatesFailed: 'Get contract templates failed',
-        getWalletAddressFailed: 'Get wallet address failed',
+        deploySus: 'Collection initialization succeeded. Please waiting for synchronization to complete',
+        deployFailed: 'Collection deployment failed!',
+        getTemplatesFailed: 'Failed to get contract templates',
+        getWalletAddressFailed: 'Failed to get wallet address',
         fields: {
           template: {
             label: 'Template',
@@ -149,7 +149,7 @@ export const copywriter = {
         title: 'More Options',
         goToNftCollectionDashBoard: 'Go to NFT collection dashboard',
         moreOptionsWaitingForSyncComplete: 'Waiting for synchronization to complete...',
-        moreOptionsTipText: 'Once the synchronization is done, you can update more info in your collection dashboard'
+        moreOptionsTipText: 'Once the synchronization is done, you will have more fields to update in your collection dashboard'
       }
     }
 
@@ -165,7 +165,7 @@ export const copywriter = {
     loadMoreDataFail: 'Failed to load more data',
     createMetaDataPage: {
       batchCreateMetaDataItems: 'Batch Create Metadata Items',
-      errorWhileFormatBatchJson: 'Error while format input string as json object array',
+      errorWhileFormatBatchJson: 'Error while formating input string as json object array',
       noDataFound: 'No data found!',
       tokenIdCanNotBeZero: 'Token ID starts from 1',
       incorrectDataFormat: 'Incorrect data format',
@@ -177,11 +177,11 @@ export const copywriter = {
     editMetaDataConfigPage: {
       fileTypeSupport: 'File types supported: PNG, JPG, or GIF',
       failedToFormatSchema: 'Failed to format metadata schema',
-      currentCollectionAlreadyInit: 'Current collection has already init schema!',
+      currentCollectionAlreadyInit: 'Current collection has already initialized schema!',
       pleaseUploadDefaultImage: 'Please upload default image',
       clickToUpload: 'Click to upload default image',
       clickToUpdate: 'Click to update default image',
-      forbiddenField: 'Wrong fieldName, tokenId、name、description are build in fields',
+      forbiddenField: 'Wrong fieldName, tokenId, name, description are built in fields',
       fields: {
         collectionName: {
           label: 'Collection Name'
@@ -208,7 +208,7 @@ export const copywriter = {
       title: 'Add Sync Event',
       addEventsBtnText: 'Add Events',
       pleaseAddSomeEvent: 'Please add some event',
-      pleaseFillEventBlank: 'Please fill event blank',
+      pleaseFillEventBlank: 'Please fill the event blank',
       pleaseAddOneRecord: 'Please add at least one record',
       fields: {
         collectionName: {
@@ -234,10 +234,10 @@ export const copywriter = {
       }
     },
     events: {
-      title: 'Sync log'
+      title: 'Synchronization Log'
     }
   },
   adminWallet: {
-    refreshAccountBalanceSus: 'Refresh account balance succeed!',
+    refreshAccountBalanceSus: 'Refresh account balance successfully!',
   }
 }
